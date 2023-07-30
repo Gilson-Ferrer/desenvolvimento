@@ -1,4 +1,4 @@
-def calculator (num0, num1 =0, num2 =0):
+def calculator (num0:int, num1:float, num2:float): 
     
     if num0 == 1:
         return num1 + num2
