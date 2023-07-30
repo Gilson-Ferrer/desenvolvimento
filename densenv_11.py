@@ -21,10 +21,10 @@ while True:
         break
     if 0 < nro_op < 5:
         while True:
-            nro_1 = float(input('\nDigite o primeiro numero: '))
-            nro_2 = float(input('Digite o primeiro numero: '))
+            nro_1 = float(input('\nDigite o primeiro número: '))
+            nro_2 = float(input('Digite o segundo número: '))
             if nro_op == 4 and nro_1 == 0 or nro_2 == 0:
-                print('\nDigite somente números \033[32mNÃO NULOS\033[m\n')
+                print('\nDigite somente números \033[32mDIFERENTE DE ZERO\033[m\n')
                 continue
             print('-' *30)
             print(f'Resultdo : {calculator(nro_op, nro_1, nro_2)}')
