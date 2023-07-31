@@ -29,3 +29,7 @@ while counter_2 > 0:
     if counter_2 != 13:
         print('%dº andar' %(counter_2))
     counter_2 -= 1
+
+# 4ª forma (mais reduzida)
+
+print(*[a for a in range(20, 0, -1) if a != 13])
